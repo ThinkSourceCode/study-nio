@@ -1,0 +1,17 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+target/
+.classpath
+.project
+.settings/
+data/
+*.log
+*log*.zip
+.generatorignore
+/bin/
+.DS_Store
+.idea/
+.springBeans
