@@ -1,0 +1,11 @@
+tcp相关的channel包含两个
+SocketChannel和ServerSocketChannel（类似于网络编程中的socket和serverSocket）
+
+ServerSocketChannel 服务端
+SocketChannel 客户端
+
+默认情况下ServerSocketChannel和SocketChannel是阻塞式的
+
+bind 绑定端口
+connect 客户端连接服务端
+configureBlocking 配置是否为阻塞式,true为阻塞,false为非阻塞
