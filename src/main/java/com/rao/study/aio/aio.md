@@ -1,0 +1,6 @@
+AIO是在NIO2.0的基础上提供了异步的IO
+AsynchronousFileChannel
+AsynchronousServerSocketChannel
+AsynchronousSocketChannel
+
+实际上AIO就是使用的JUC中的异步框架,future
